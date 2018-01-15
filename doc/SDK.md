@@ -181,7 +181,7 @@ tagList.add("airport");
 ```
 Nikaza Location Services Framework communicates with Nikaza server to determine if a user is at a place or a specific business category.
 
-Learn more about [Places tags](doc/Places.md).
+Learn more about [Places tags](Places.md).
 
 ##### Advanced framework configuration
 
