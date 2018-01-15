@@ -31,42 +31,42 @@ The Nikaza Places database has millions of pre-defined locations that are catego
 
 Each location has a category, sub-category and location name. Example: Arts & Entertainment, Movie Theatre, Acme Cinema.
 
-Learn more about [Places](/android/doc/Places.md).
+Learn more about [Places](doc/Places.md).
 
 #### Geofences
 A geofence is used to specify a custom geographical location, such as a coffee shop, an auto dealership or a retail outlet. If you want to monitor user activity in a certain location, you can create a geofence around it to be notified when an user enters or exits the geofence. You can deliver contextually relevant experience to your users this way.
 
 With support for unlimited geofences, the Nikaza Location Services Framework is more powerful than the native Android geofencing.
 
-Learn more about [Geofences](/android/doc/Geofences.md).
+Learn more about [Geofences](doc/Geofences.md).
 
 #### Beacons
 
 The Nikaza Location Services Framework scans for beacons (iBeacon and Eddystone). Beacons provide higher accuracy than geofences and can be used to identify custom geographical location, such as a coffee shop, an auto dealership or a retail outlet and specific zones such as entrance or cash counter within the geographical location.
 
-Learn more about [Beacons](/android/doc/Beacons.md).
+Learn more about [Beacons](doc/Beacons.md).
 
 #### WiFi
 
 The Nikaza Location Services Framework scans for WiFi access points. WiFi provides better accuracy than geofences and can be used to identify custom geographical location, such as a coffee shop, an auto dealership or a retail outlet and specific zones such as entrance or cash counter within the geographical location.
 
- Learn more about [WiFi](/android/doc/Wifi.md).
+ Learn more about [WiFi](doc/Wifi.md).
 
 #### Location Context
 
 Nikaza Context Hub backend has a collection of location and context information associated with these locations. The server call to retrieve location context and associated location metadata will be triggered when the a Geofence, Beacon or WiFi  event occurs. Developers can subscribe to context metadata via callbacks.
 
- Learn more about [Location Context](/android/doc/LocationContext.md).
+ Learn more about [Location Context](doc/LocationContext.md).
 
 ### Developer Tools
 
-You can integrate the Nikaza Location Services Framework with your apps using our developer tools: the [SDK](/android/doc/SDK.md).
+You can integrate the Nikaza Location Services Framework with your apps using our developer tools: the [SDK](doc/SDK.md).
 
 ### SDK
 
 Integrate Nikaza Location Services Framework into your android app to start tracking users and generating events. You can use the Nikaza Location Services Framework to add location context and track your apps with just a few lines of code.
 
-Learn more about the [SDK](/android/doc/SDK.md).
+Learn more about the [SDK](doc/SDK.md).
 
 ### Examples
 
