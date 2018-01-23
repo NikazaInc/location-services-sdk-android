@@ -185,7 +185,7 @@ Learn more about [Places tags](Places.md).
 
 ##### Advanced framework configuration
 
-Take these optional steps to add or modify the Nikaza Location Services Framework settings. These variables needs to be set before calling NBeaconScanner.getInstance().startScanning();.
+Take these optional steps to add or modify the Nikaza Location Services Framework settings. These variables needs to be set before calling NBeaconScanner.getInstance().startScanning().
  
 * If `NikazaConstants.API_INVOCATION_RSSI_DIFFERENCE` is set to 30 then Nikaza API calls are triggered only if the RSSI changes by at least 30dBm once a beacon is found. Default 20.
 * `NikazaConstants.LOST_TIMEOUT` defines the amount of time in milliseconds to wait (after a beacon is lost) before trigerring an exit event to Nikaza backend. Default 10000.
@@ -201,7 +201,6 @@ Below are the optional delegates or callbacks:
 
 ```
 didFind_beacon
-didFind_beaconURL
 didUpdate_beacon
 didLost_Beacon
 didGetLocationMetadata_nikaza
@@ -223,12 +222,6 @@ didGetNikazaLog
   @Override
     public void didFind_beacon(ScanControlModel beacon) {
         Log.e(TAG," Find "+beacon.getBeaconId()+" rssi : "+beacon.getBeaconRssi());
-    }
-
-  //  If a beacon is broadcasting URLs, `didFind_beaconURL:` is triggered.
-  @Override
-    public void didFind_beaconURL(ScanControlModel beacon) {
-        Log.e(TAG," Find URL "+beacon.getBeaconId()+" rssi : "+beacon.getBeaconRssi());
     }
 
   // When an existing beacon is updated (RSSI change), a `didUpdate_beacon:` call gets triggered.
