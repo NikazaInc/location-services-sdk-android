@@ -189,7 +189,7 @@ Take these optional steps to add or modify the Nikaza Location Services Framewor
  
 * If `NikazaConstants.API_INVOCATION_RSSI_DIFFERENCE` is set to 30 then Nikaza API calls are triggered only if the RSSI changes by at least 30dBm once a beacon is found. Default 20.
 * `NikazaConstants.LOST_TIMEOUT` defines the amount of time in milliseconds to wait (after a beacon is lost) before trigerring an exit event to Nikaza backend. Default 10000.
-* If `NikazaConstants.POWER_SAVING_MODE = false` GPS polling is more frequest. Note that this will drain the battery faster. Default true.
+* If `NikazaConstants.POWER_SAVING_MODE = false` GPS polling is more frequent. Note that this will drain the battery faster. Default true.
 * If `NikazaConstants.AutoWiFiON = true` the SDK will automatically turn on the devices WiFi. Default false.
 
 
