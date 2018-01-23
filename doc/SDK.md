@@ -185,12 +185,10 @@ Learn more about [Places tags](Places.md).
 
 ##### Advanced framework configuration
 
-Take these optional steps to add or modify the Nikaza Location Services Framework settings.
-
-
-1. Modify the other default configuration values such as power saving mode, lost timeout and rssi range to control the frequency of Nikaza API calls. These needs to be set before calling NBeaconScanner.getInstance().startScanning();
-    - If `NikazaConstants.API_INVOCATION_RSSI_DIFFERENCE` is set to 30 then Nikaza API calls are trigerred only if the RSSI changes by at least 30dBm once a beacon is found. Default 20.
-    - `NikazaConstants.LOST_TIMEOUT` defines the amount of time in milliseconds to wait (after a beacon is lost) before trigerring an exit event to Nikaza backend. Default 10000 ms.
+Take these optional steps to add or modify the Nikaza Location Services Framework settings. These variables needs to be set before calling NBeaconScanner.getInstance().startScanning();
+ 
+    - If `NikazaConstants.API_INVOCATION_RSSI_DIFFERENCE` is set to 30 then Nikaza API calls are triggered only if the RSSI changes by at least 30dBm once a beacon is found. Default 20.
+    - `NikazaConstants.LOST_TIMEOUT` defines the amount of time in milliseconds to wait (after a beacon is lost) before trigerring an exit event to Nikaza backend. Default 10000.
     - If `NikazaConstants.POWER_SAVING_MODE = false` GPS polling is more frequest. Note that this will drain the battery faster. Default true.
     - If `NikazaConstants.AutoWiFiON = true` the SDK will automatically turn on the devices WiFi. Default false.
 
