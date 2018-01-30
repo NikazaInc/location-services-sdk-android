@@ -27,7 +27,7 @@
 ### Introduction
 Nikaza serves as a bridge between the physical and digital worlds. Integrate the Nikaza Location Services Framework into your Android apps to start tracking users and generating events. The SDK allows you to add location context and tracking to your apps with only a few lines of code.
 
-You can use the Nikaza Location Services Framework to track the user's location in the foreground, in the background, or both. In the background, the Nikaza Location Services Framework wakes up and starts sending locations to Nikaza web server when the user moves more than 100 meters or when the app is idle for more than a few minutes. Nikaza Location Services Framework attempts to maximize battery efficiency; background tracking uses less than 2% battery per day.
+You can use the Nikaza Location Services Framework to track the user's location in the foreground or background.
 
 Most of the geofencing process happens on Nikaza server-side. This allows Nikaza geofencing to be more powerful than native Android geofencing with cross-platform support for unlimited geofences.
 
