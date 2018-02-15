@@ -211,7 +211,7 @@ didExit_place
 didWifi_Find
 didWifi_updates
 didWifi_Lost
-didGetNikazaLog
+didUpdateStatus_framework
 ```
 
 ##### Sample implementation
@@ -286,6 +286,11 @@ didGetNikazaLog
     @Override
     public void didWifi_Lost(BssidsResponse bssidsResponse) {
         Log.e(TAG,"\n Wifi Lost SSID : "+ bssidsResponse.getSsid());
+    }
+  // To receive SDK logs
+    @Override
+    public void didUpdateStatus_framework(String string) {
+      setText(getLogTxt(),"\n\n" + string);
     }
 ```
   
