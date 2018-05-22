@@ -42,7 +42,7 @@ Authenticate using your unique API keys:
 
 #### Download the framework
 
-Nikaza Location Services Framework can be downloaded from [here](../nikaza-sdk.aar)
+Nikaza Location Services Framework can be downloaded from [here](../nikaza-sdk-1.0.15.aar)
 
 
 #### Integrate the framework
